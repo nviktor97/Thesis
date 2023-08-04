@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HidroPhonicOpen</string>
+    <string name="main_email">Email</string>
+    <string name="main_password">Password</string>
+    <string name="main_sign_in">Sign In</string>
+    <string name="home_pick_date">Pick date</string>
+    <string name="home_actual_data">Actual data</string>
+    <string name="home_temperature_limits">Temperature Limits</string>
+    <string name="home_change_password">Change Password</string>
+    <string name="home_sign_out">Sign Out</string>
+    <string name="diagram_hourly_temperature_data">HOURLY TEMPERATURE DATA</string>
+    <string name="diagram_home">Home</string>
+    <string name="actual_actual_temperature">Actual Temperature:</string>
+    <string name="actual_water_level">Solution Level:</string>
+    <string name="actual_pump_state">Pump State:</string>
+    <string name="actual_turn_on_pump">Turn On Pump</string>
+    <string name="actual_automatic_mode">Automatic mode</string>
+    <string name="actual_home">Home</string>
+    <string name="limit_current_low">Current Low:</string>
+    <string name="limit_save">Save</string>
+    <string name="limit_current_high">Current High:</string>
+    <string name="limit_home">Home</string>
+    <string name="limit_low">LOW</string>
+    <string name="limit_high">HIGH</string>
+    <string name="pass_new_password">New password</string>
+    <string name="pass_new_password_again">New password again</string>
+    <string name="pass_save">Save</string>
+    <string name="pass_home">Home</string>
+    <string name="pick_get_date">Get Date</string>
+    <string name="pick_home">Home</string>
+</resources>

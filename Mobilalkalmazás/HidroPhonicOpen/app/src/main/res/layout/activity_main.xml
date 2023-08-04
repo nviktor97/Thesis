@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="fill_vertical"
+    android:background="@color/white"
+    android:backgroundTint="#F1EACE"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/hidronew2"
+                tools:ignore="ContentDescription" />
+
+            <EditText
+                android:id="@+id/email"
+
+
+                android:layout_width="310dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/customframe"
+
+                android:hint="@string/main_email"
+                android:importantForAutofill="no"
+                android:inputType="textEmailAddress"
+                android:maxLines="1" />
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="310dp"
+                android:layout_height="44dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/customframe"
+                android:hint="@string/main_password"
+
+                android:imeActionLabel="action_sign_in_short"
+                android:imeOptions="actionUnspecified"
+                android:importantForAutofill="no"
+                android:inputType="textPassword"
+                android:maxLines="1" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/email_sign_in_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="140dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="35dp"
+                android:layout_marginBottom="35dp"
+
+                android:backgroundTint="#38781D"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/main_sign_in"
+                android:textColor="#F1EACE"
+                android:textStyle="bold"
+                app:cornerRadius="100dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

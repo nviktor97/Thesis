@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EACE"
+    android:backgroundTint="#F1EACE"
+    android:gravity="center_vertical"
+    tools:context=".Home">
+
+    <ScrollView
+        android:id="@+id/home_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/homeinform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/datePicker"
+                style="?android:textAppearanceSmall"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+
+                android:backgroundTint="#38781D"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/home_pick_date"
+                android:textColor="#F1EACE"
+                android:textStyle="bold"
+                app:cornerRadius="100dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/ActualButton"
+                style="?android:textAppearanceSmall"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+
+                android:backgroundTint="#38781D"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/home_actual_data"
+                android:textColor="#F1EACE"
+                android:textStyle="bold"
+                app:cornerRadius="100dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/LimitButton"
+                style="?android:textAppearanceSmall"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+
+                android:backgroundTint="#38781D"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/home_temperature_limits"
+                android:textColor="#F1EACE"
+                android:textStyle="bold"
+                app:cornerRadius="100dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/passChanger"
+                style="?android:textAppearanceSmall"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+
+                android:backgroundTint="#38781D"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/home_change_password"
+                android:textColor="#F1EACE"
+                android:textStyle="bold"
+                app:cornerRadius="100dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/email_sign_out_button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+
+                android:backgroundTint="#38781D"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/home_sign_out"
+                android:textColor="#F1EACE"
+                android:textStyle="bold"
+                app:cornerRadius="100dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:background="#F1EACE"
+    android:backgroundTint="#F1EACE"
+    tools:context=".Actual">
+
+    <ScrollView
+        android:id="@+id/data_form"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/dataform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="197dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/actual_actual_temperature"
+                android:textAlignment="center"
+                android:textColor="#38781D"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="36dp"
+                tools:layout_editor_absoluteY="48dp" />
+
+            <TextView
+                android:id="@+id/textTemp"
+                android:layout_width="122dp"
+                android:layout_height="33dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/customframe"
+                android:gravity="center_horizontal|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="37dp"
+                tools:layout_editor_absoluteY="89dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/actual_water_level"
+                android:textAlignment="center"
+                android:textColor="#38781D"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="37dp"
+                tools:layout_editor_absoluteY="134dp" />
+
+            <TextView
+                android:id="@+id/textWater"
+                android:layout_width="143dp"
+                android:layout_height="33dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/customframe"
+                android:gravity="center_horizontal|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="37dp"
+                tools:layout_editor_absoluteY="177dp" />
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="158dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/actual_pump_state"
+                android:textAlignment="center"
+                android:textColor="#38781D"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="219dp" />
+
+            <TextView
+                android:id="@+id/textPump"
+                android:layout_width="121dp"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/customframe"
+                android:gravity="center_horizontal|center_vertical"
+                android:text=""
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="38dp"
+                tools:layout_editor_absoluteY="257dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button"
+                style="?android:textAppearanceSmall"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+
+                android:backgroundTint="#38781D"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/actual_turn_on_pump"
+                android:textColor="#F1EACE"
+                android:textStyle="bold"
+                app:cornerRadius="100dp" />
+
+
+            <Switch
+                android:id="@+id/autoSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="@string/actual_automatic_mode"
+                android:textColor="#38781D"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/HomeBtn"
+                style="?android:textAppearanceSmall"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18dp"
+
+                android:backgroundTint="#38781D"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/actual_home"
+                android:textColor="#F1EACE"
+                android:textStyle="bold"
+                app:cornerRadius="100dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

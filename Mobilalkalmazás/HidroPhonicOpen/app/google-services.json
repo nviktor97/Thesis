@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "899592721032",
+    "firebase_url": "https://hidrodatabase-default-rtdb.firebaseio.com",
+    "project_id": "hidrodatabase",
+    "storage_bucket": "hidrodatabase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899592721032:android:9d1e5502fbc9412006853d",
+        "android_client_info": {
+          "package_name": "com.nv.hidrophonicopen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899592721032-94uqg4oiaa23htf1imakid480c3gsfpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8PqSlordE1rg568Mok6ok1Ubvv4Za8YQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899592721032-94uqg4oiaa23htf1imakid480c3gsfpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
