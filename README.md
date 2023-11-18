@@ -27,6 +27,7 @@ The first one is for the actual data and water pump control, we can set an autom
 We can choose a date with a datepicker and we are presented with a chart visualizing the temperature data for that day.
 
 The charts were provided by jjoe64's GraphView
+
 Link: https://github.com/jjoe64/GraphView
 
 We can set the water temperature limits after that those are stored in the fire base where the microcontroler can read them.
