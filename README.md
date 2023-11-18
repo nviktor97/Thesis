@@ -13,6 +13,7 @@ The microcontroller connected to the WiFi and sent email warning about the impor
 It also was connected to a Googgle Firebase live database where it uploaded the temperature data, the actual water level and if the water pump was on or off.
 
 Firebase
+
 The Firebase live databes had the hourly temp data stored with dates. For example  2022.01.12. was a perent node,
 it had 12 children for the hours and those children were a key and value pair with the key being the hour and the value being the temperature.
 It had the automatic mode flag, the water pump state and water level with a boolean. High and low water temperature limits for warnings.
@@ -20,10 +21,14 @@ The users for the android apps were administered in this database.
 At the moment the database is suspened, not used.
 
 Android app
+
 After a login by the Google Firebase authentication we are presented with a menu.
 The first one is for the actual data and water pump control, we can set an automatic water control mode too here.
-We can choose a date with a datepicker and we are presented with a chart visualizing the temperature data for that day. The charts were provided by jjoe64's GraphView
+We can choose a date with a datepicker and we are presented with a chart visualizing the temperature data for that day.
+
+The charts were provided by jjoe64's GraphView
 Link: https://github.com/jjoe64/GraphView
+
 We can set the water temperature limits after that those are stored in the fire base where the microcontroler can read them.
 We can change our password.
 Logout.
