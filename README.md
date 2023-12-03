@@ -12,6 +12,9 @@ All of this was controlled with a NodeMCU ESP8266 microcontroller.
 The microcontroller connected to the WiFi and sent email warning about the important happening like, low water level, too low or high temperature.
 It also was connected to a Googgle Firebase live database where it uploaded the temperature data, the actual water level and if the water pump was on or off.
 
+![system](https://github.com/nviktor97/Thesis/assets/69107380/1f4b2cca-59df-43f2-a706-3ad4ef01403b)
+
+
 Firebase
 
 The Firebase live databes had the hourly temp data stored with dates. For example  2022.01.12. was a perent node,
@@ -34,3 +37,14 @@ We can set the water temperature limits after that those are stored in the fire 
 We can change our password.
 Logout.
 There are push notifications about the important events.
+
+
+![sign](https://github.com/nviktor97/Thesis/assets/69107380/5f9683d3-7c2e-4b1c-b6b1-31ae93659590)
+
+![menus](https://github.com/nviktor97/Thesis/assets/69107380/bd3cdd0d-35e4-48e4-94fa-228daaae5248)
+
+![menu](https://github.com/nviktor97/Thesis/assets/69107380/115bd89b-ff32-409b-9342-2f40ecaaefe1)
+
+![datepicker](https://github.com/nviktor97/Thesis/assets/69107380/2e3a39c3-fc59-463c-8178-c9305aa0d1e3)
+
+![chart](https://github.com/nviktor97/Thesis/assets/69107380/54cd02ec-db25-49c0-90ed-6b5e08bac1ec)
